@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - UrbanThreads</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-container">
+                <div class="navbar-brand">
+                    <a href="index.html">UrbanThreads</a>
+                </div>
+                <div class="navbar-menu">
+                    <a href="index.html" class="navbar-link">Home</a>
+                    <a href="services.html" class="navbar-link">Services</a>
+                    <a href="about.html" class="navbar-link">About</a>
+                    <a href="contact.html" class="navbar-link">Contact</a>
+                    <a href="login.html" class="navbar-link">Login</a>
+                    <a href="register.html" class="navbar-link active">Register</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Register Section -->
+    <section style="min-height: 80vh; display: flex; align-items: center; justify-content: center; padding: 3rem 0;">
+        <div class="container">
+            <div class="card" style="max-width: 480px; margin: 0 auto;">
+                <div class="card-body" style="padding: 3rem 2.5rem;">
+                    <div class="text-center" style="margin-bottom: 2.5rem;">
+                        <h2 style="margin-bottom: 0.5rem; font-size: 1.875rem;">Create Account</h2>
+                        <p style="color: var(--medium-gray); margin: 0;">Join UrbanThreads today</p>
+                    </div>
+
+                    <form>
+                        <div class="form-group">
+                            <label for="firstName" class="form-label">First Name</label>
+                            <input type="text" id="firstName" name="firstName" class="form-input" placeholder="Enter your first name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="lastName" class="form-label">Last Name</label>
+                            <input type="text" id="lastName" name="lastName" class="form-input" placeholder="Enter your last name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" id="email" name="email" class="form-input" placeholder="Enter your email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" id="password" name="password" class="form-input" placeholder="Create a password" required>
+                            <small style="color: var(--text-secondary); font-size: 0.825rem; display: block; margin-top: 0.25rem;">Must be at least 8 characters</small>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="confirmPassword" class="form-label">Confirm Password</label>
+                            <input type="password" id="confirmPassword" name="confirmPassword" class="form-input" placeholder="Confirm your password" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="d-flex align-start gap-2" style="cursor: pointer;">
+                                <input type="checkbox" name="terms" required style="margin: 0.25rem 0 0 0; accent-color: var(--accent-color);">
+                                <span style="font-size: 0.875rem; color: var(--medium-gray); line-height: 1.5;">I agree to the <a href="#" style="color: var(--accent-color); font-weight: 500;">Terms</a> and <a href="#" style="color: var(--accent-color); font-weight: 500;">Privacy Policy</a></span>
+                            </label>
+                        </div>
+                        
+                        <div class="form-group" style="margin-bottom: 2rem;">
+                            <label class="d-flex align-start gap-2" style="cursor: pointer;">
+                                <input type="checkbox" name="newsletter" style="margin: 0.25rem 0 0 0; accent-color: var(--accent-color);">
+                                <span style="font-size: 0.875rem; color: var(--medium-gray); line-height: 1.5;">Send me exclusive offers and updates</span>
+                            </label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-large" style="width: 100%;">Create Account</button>
+                    </form>
+
+                    <div class="text-center" style="margin-top: 2rem;">
+                        <p style="color: var(--medium-gray); font-size: 0.9rem;">Already have an account? <a href="login.html" style="color: var(--accent-color); font-weight: 600;">Sign in</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="container" style="margin: 4rem auto; padding-bottom: 3rem;">
+        <div style="text-align: center; max-width: 600px; margin: 0 auto 3rem;">
+            <h3 style="margin-bottom: 0.75rem; font-size: 1.75rem;">Member Advantages</h3>
+            <p style="color: var(--medium-gray); font-size: 1rem;">Everything you get with an UrbanThreads account</p>
+        </div>
+        <div class="d-grid" style="grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 2rem; max-width: 1000px; margin: 0 auto;">
+            <div class="card text-center">
+                <div class="card-body" style="padding: 2rem 1.5rem;">
+                    <div style="font-size: 2.5rem; margin-bottom: 1rem;">🎁</div>
+                    <h5 style="margin-bottom: 0.75rem; font-size: 1.125rem;">Exclusive Perks</h5>
+                    <p style="color: var(--medium-gray); line-height: 1.7; margin: 0; font-size: 0.95rem;">Member-only discounts and early access to sales.</p>
+                </div>
+            </div>
+            <div class="card text-center">
+                <div class="card-body" style="padding: 2rem 1.5rem;">
+                    <div style="font-size: 2.5rem; margin-bottom: 1rem;">📱</div>
+                    <h5 style="margin-bottom: 0.75rem; font-size: 1.125rem;">Easy Management</h5>
+                    <p style="color: var(--medium-gray); line-height: 1.7; margin: 0; font-size: 0.95rem;">Track orders and manage your favorites effortlessly.</p>
+                </div>
+            </div>
+            <div class="card text-center">
+                <div class="card-body" style="padding: 2rem 1.5rem;">
+                    <div style="font-size: 2.5rem; margin-bottom: 1rem;">💬</div>
+                    <h5 style="margin-bottom: 0.75rem; font-size: 1.125rem;">Personalization</h5>
+                    <p style="color: var(--medium-gray); line-height: 1.7; margin: 0; font-size: 0.95rem;">Get recommendations tailored to your style.</p>
+                </div>
+            </div>
+            <div class="card text-center">
+                <div class="card-body" style="padding: 2rem 1.5rem;">
+                    <div style="font-size: 2.5rem; margin-bottom: 1rem;">🔒</div>
+                    <h5 style="margin-bottom: 0.75rem; font-size: 1.125rem;">Secure Shopping</h5>
+                    <p style="color: var(--medium-gray); line-height: 1.7; margin: 0; font-size: 0.95rem;">Protected with industry-standard encryption.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>UrbanThreads</h4>
+                    <p>Your one-stop destination for trendy and affordable fashion. Style that speaks volumes.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Customer Service</h4>
+                    <ul>
+                        <li><a href="#">Size Guide</a></li>
+                        <li><a href="#">Shipping Info</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect With Us</h4>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Pinterest</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 UrbanThreads. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
